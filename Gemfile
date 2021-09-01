@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'mysql2'
-gem 'rails', '4.2.5'
+gem 'rails', '~> 4.2'
 gem 'lograge'
 
 gem 'net-http-persistent'
@@ -10,7 +10,7 @@ gem 'faraday', '~> 0.10.0'
 gem 'newrelic_rpm'
 gem 'dogapi'
 
-gem 'rails_config', '0.4.2'
+gem 'rails_config', '~> 0.4.2'
 
 gem "administrate", "~> 0.1.4"
 gem 'will_paginate', '~> 3.0.6'
@@ -27,6 +27,8 @@ gem 'ar-octopus'
 
 gem 'parallel'
 gem 'jmespath'
+
+gem 'sass-rails', '~> 4.0'
 
 group :development, :production do
   gem 'puma'
