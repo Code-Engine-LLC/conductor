@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'mysql2'
-gem 'rails', '4.2.5'
+gem 'mysql2', '0.5.3'
+gem 'rails', '~> 4.2.4'
 gem 'lograge'
 
 gem 'net-http-persistent'
@@ -10,7 +10,7 @@ gem 'faraday', '~> 0.10.0'
 gem 'newrelic_rpm'
 gem 'dogapi'
 
-gem 'rails_config', '0.4.2'
+gem 'rails_config', '~> 0.4.2'
 
 gem "administrate", "~> 0.1.4"
 gem 'will_paginate', '~> 3.0.6'
