@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'mysql2'
-gem 'rails', '~> 4.2'
+gem 'mysql2', '0.5.3'
+gem 'rails', '~> 4.2.4'
 gem 'lograge'
 
 gem 'net-http-persistent'
@@ -27,8 +27,6 @@ gem 'ar-octopus'
 
 gem 'parallel'
 gem 'jmespath'
-
-gem 'sass-rails', '~> 4.0'
 
 group :development, :production do
   gem 'puma'
